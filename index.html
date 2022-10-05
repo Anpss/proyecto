@@ -1,48 +1,83 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
     <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Techvang  </title>
-            <link rel="stylesheet" href="imagenes/puntero.png" >
+            <link rel="stylesheet" href="reset.css">
             <link rel="stylesheet"  href="style.css">
-            <script src="myScrip.js"></script>
+            <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="imagenes/puntero.png">
+            <link src="myScrip.js">
             
     </head>
 
    <body>
-        <header>
-            <h1 class="tituloPrincipal"> <img src="logo-blanco.png"></h1>
-          
-        </header>
 
+    <header> 
+        <div class="caja">
+            <h1><img src="imagenes/logo-blanco.png"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="producto.html">Producto</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto </a></li>
+                </ul>
+            </nav>
+       
+        </div>
+    </header>
+
+        <main>
+
+            <section class="principal">
+
+                <h2 class="tituloPrincipal"> Sobre Techvang </h2>
+    
+                <p>Ubicada en el corazón de la ciudad,<strong> Techvang </strong> trae para el mercado los mejores productos y mejores asesorias . Fundada en 2015, Techvang conquista nuevos clientes diariamente y esperamos que te incluyas para tener el gusto de atenderte. </p>
+    
+                <p id="mision"> Nuestra misión es: <strong>"Garantizar una experiencia excelente a nuestros clientes con nuestras asesorías personalizas,Servicios y Productos siendo para nosotros los mas importantes.     
+                </strong></p>
+    
+                <p >Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la tecnología, para así ofrecer a nuestros clientes lo mejor. Nuestra atención posee una excelente asesorías para  agilizar su comprencion garantizando calidad y satisfacción de nuestros clientes. </p>
+            </section>
+            <section class="mapa">
+
+                <h3 class="tituloPrincipal">Nuestra Ubicacion</h3>
+                <p>Nuestro establecimiento está ubicado en el corazón de la ciudad</p>
+            <div class="mapaContenido"> 
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3976.141619446573!2d-75.9145289!3d4.7454334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e386fe2573bf9d1%3A0xbd6366a5dac24360!2sCentro%20de%20Tecnolog%C3%ADas%20Agroindustriales%20SENA!5e0!3m2!1ses-419!2sco!4v1664837892349!5m2!1ses-419!2sco" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </section>
+
+            <section class="diferenciales">
+    
+                <h3 class="tituloPrincipal">Diferencias</h3>
+    
+                <div class="contenidoDiferenciales">
+                    <ul class="listasDiferenciales">
+                        <li class="items">Asesoría personalizado a los clientes</li>
+                        <li class="items">Ofrecemos nuestro servicios de la mejor calidad, siempre priorizanodo tus necesidades
+                        </li>
+                        <li class="items">venta de productos de muy buena calidad</li>
+                        <li class="items">Te capacitamos</li>
+                        <li class="items">Profesionales muy experimentados</li>
+                    </ul> 
+                </div>
+                 
+            </section>
+
+
+        </main>
         
-        <div class="principal">
-            <h2 class="tituloCentrado"> Sobre Techvang </h2>
 
-            <p>Ubicada en el corazón de la ciudad,<strong> Techvang </strong> trae para el mercado los mejores productos y mejores asesorias . Fundada en 2015, Techvang conquista nuevos clientes diariamente y esperamos que te incluyas para tener el gusto de atenderte. </p>
-
-            <p id="mision"> Nuestra misión es: <strong>"Garantizar una experiencia excelente a nuestros clientes con nuestras asesorías personalizas,Servicios y Productos siendo para nosotros los mas importantes.     
-            </strong></p>
-
-            <p >Ofrecemos profesionales experimentados que están constantemente observando los cambios y movimiento en el mundo de la tecnología, para así ofrecer a nuestros clientes lo mejor. Nuestra atención posee una excelente asesorías para  agilizar su comprencion garantizando calidad y satisfacción de nuestros clientes. </p>
-        </div>
-        <div class="diferenciales">
-
-            <h3>Diferencias</h3>
-
-
-            <ul>
-                
-                <li class="items">Asesoría personalizado a los clientes</li>
-                <li class="items">Ofrecemos nuestro servicios de la mejor calidad, siempre priorizanodo tus necesidades
-                </li>
-                <li class="items">venta de productos de muy buena calidad</li>
-                <li class="items">Te capacitamos</li>
-                <li class="items">Profesionales muy experimentados</li>
-
-            </ul> 
-        </div>
+        <footer>
+            <img src="imagenes/logo-blanco.png">
+            <p class="copyright"> &copy Copyright</p>
+        </footer>
 
    </body>
 </html>
